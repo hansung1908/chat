@@ -28,6 +28,6 @@ public class ChatController {
     @PostMapping("/chat")
     public Mono<Chat> setMsg(@RequestBody Chat chat) { // Mono는 한번만 리턴한다는 뜻
         chat.setCreatedAt(LocalDateTime.now());
-        return chatRepository.save(chat);
+        return chatRepository.save(chat); // object를 리턴하면 자동으로 json 변환 (MessageConverter)
     }
 }
