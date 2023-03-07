@@ -14,7 +14,8 @@ public class Chat {
     private String id;
     private String msg;
     private String sender;
-    private String receiver;
+    private String receiver; // 받는 사람 (귓속말)
+    private Integer roomNum; // 채팅방 번호
 
     private LocalDateTime createdAt;
 }
