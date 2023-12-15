@@ -1,5 +1,10 @@
 # chat
+- mongodb와 webflux를 활용하여 제작한 채팅 서비스
 
+### java
+- mongodb-reactive, webflux, lombok, devtools
+
+### mongodb를 사용하는 이유
 - rdbms는 테이블 간의 중복을 없애기 위해 서로 테이블 공유하는 기술로 각 테이블의 고유 id를 부여하여 이를 통해 서로 공유하는 기술로 중복이 없고 데이터 변경이 쉽다는 장점이 있지만
 데이터를 찾을 때 여러 테이블을 타기 때문에 성능면에서 아쉬움이 있다.
 
