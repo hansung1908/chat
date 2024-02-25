@@ -1,7 +1,7 @@
 # chat
 - mongodb와 webflux를 활용하여 제작한 채팅 서비스
 
-### java
+### java, spring boot
 - mongodb-reactive, webflux, lombok, devtools
 
 ### mongodb를 사용하는 이유
